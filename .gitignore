@@ -1,0 +1,35 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Airflow logs and metadata
+logs/
+airflow.db
+*.pid
+
+# Environment files
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# Docker artifacts
+*.log
+*.pid
+*.sock
+*.db
+*.tar
+*.gz
+
+# dbt artifacts
+dbt_packages/
+target/
+manifest.json
+run_results.json
+profiles.yml  # if you store secrets locally
+
+# OS-specific
+.DS_Store
+Thumbs.db

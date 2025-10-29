@@ -1,0 +1,14 @@
+DBT:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "RLEIADA-RO65246" 
+      user: "SWEATHA05"
+      password: "Sweatha@05081994"
+      role: DATA_ENGINEER_FULL
+      database: "CRIME_DB"
+      warehouse: "COMPUTE_WH"
+      schema: "FINAL"
+      threads: 4
+      client_session_keep_alive: False
