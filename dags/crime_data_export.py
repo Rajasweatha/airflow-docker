@@ -36,7 +36,7 @@ def export_crime_data():
     conn = hook.get_conn()
     cursor = conn.cursor()
 
-    filename = f"crime_by_location_type_{datetime.now().strftime('%Y-%m-%d')}.csv"
+    filename = f"export_crime_by_location_type_{datetime.now().strftime('%Y-%m-%d')}.csv"
 
     results = cursor.execute(f"""
         COPY INTO @{DATABASE}.PUBLIC.{STAGE}/{filename}
