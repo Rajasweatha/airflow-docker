@@ -3,9 +3,9 @@ DBT:
   outputs:
     dev:
       type: snowflake
-      account: "RLEIADA-RO65246" 
-      user: "SWEATHA05"
-      password: "Sweatha@05081994"
+      account: "****" 
+      user: "****"
+      password: "****"
       role: DATA_ENGINEER_FULL
       database: "CRIME_DB"
       warehouse: "COMPUTE_WH"
